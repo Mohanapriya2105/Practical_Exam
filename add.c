@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <lib.h>
 int main() {
 
     int num1, num2, num3,num4, sum;
@@ -17,7 +17,7 @@ int main() {
     scanf("%d", &num4);
     
 
-    sum = num1 + num2 + num3 + num4;
+    sum = num1 + num2 + num3 + num4 + sum ;
     
     printf("The sum of %d and %d is %d.", num1, num2, sum);
     
